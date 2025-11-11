@@ -1,26 +1,26 @@
 ﻿// Numeros
 // Textos
 
-//int VerificarInteiro()
-//{
-//	// Subescopo VerificarInteiro
-//	string? entrada;
-//	bool converteu;
-//	int numero;
-//	do
-//	{
-//		Console.WriteLine("Digite um número: ");
-//		entrada = Console.ReadLine();
-//		converteu = int.TryParse(entrada, out numero);
-//	} while (!converteu);
-//	return numero;
-//}
+int VerificarInteiro()
+{
+	// Subescopo VerificarInteiro
+	string? entrada;
+	bool converteu;
+	int numero;
+	do
+	{
+		Console.WriteLine("Digite um número: ");
+		entrada = Console.ReadLine();
+		converteu = int.TryParse(entrada, out numero);
+	} while (!converteu);
+	return numero;
+}
 
-//// Escopo global
-//int valor1 = VerificarInteiro();
-//int valor2 = VerificarInteiro();
-//int resultado = valor1 + valor2;
-//Console.WriteLine($"O resultado é {resultado}");
+// Escopo global
+int valor1 = VerificarInteiro();
+int valor2 = VerificarInteiro();
+int resultado = valor1 + valor2;
+Console.WriteLine($"O resultado é {resultado}");
 
 /* Criar um método chamado VerificaTexto()
  * Retorna uma string
